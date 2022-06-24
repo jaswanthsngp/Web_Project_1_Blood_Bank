@@ -8,7 +8,7 @@
     display: inline;
     float: right;
 }
-#head-div{
+header{
     border:2px solid darkorange;
     padding: 10px;
 }
