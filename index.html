@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> 
+    <title style="display: hidden;">Blood Bank</title>
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+    <link rel="stylesheet" href="Flex-mob.css"   media="(max-width:600px)"/>
+    <link rel="stylesheet" href="Flex-tab-v.css" media="(min-width:600px) and (max-width:768px)"/>
+    <link rel="stylesheet" href="Flex-tab.css"   media="(min-width:768px) and (max-width:992px)"/>
+    <link rel="stylesheet" href="Flex-lap.css"   media="(min-width:992px)"/>
+    <link rel="icon" type="image/jpg" href="Logo.jpg">
+  </head>
+
+  <body>
+
+    <header class="col-12 col-tab-v-12 col-tab-12 col-lap-12 col-desk-12">
+      <div><img src="Logo.jpg" alt="Logo" id="logo" width="15px" height="15px" />
+      <b>BloodBank.org</b> <i>A Social initiative</i></div>
+    </header>
+
+    <nav class="col-12 col-tab-12 col-lap-12 col-desk-03">
+      <a class="nav col-12 col-tab-v-06 col-tab-04 col-lap-03 col-desk-12" href="" target="_blank" id="register">Register</a>
+      <a class="nav col-12 col-tab-v-06 col-tab-04 col-lap-03 col-desk-12" href="" target="_blank" id="login">Login</a>
+      <a class="nav col-12 col-tab-v-06 col-tab-04 col-lap-03 col-desk-12" href="Donation_Phamphlet.html#why" target="_blank" id="why">Why Donate Blood?</a>
+      <a class="nav col-12 col-tab-v-06 col-tab-04 col-lap-03 col-desk-12" href="Donation_Phamphlet.html#who" target="_blank" id="who">Who Can Give Blood?</a>
+      <a class="nav col-12 col-tab-v-06 col-tab-04 col-lap-03 col-desk-12" href="mailto:someone@example.com?subject=Donate%20Blood&body=I%20have%20donated%20blood%20at%20someplace.%0ACome%20donate%20here" target="_blank" id="refer">Refer A Friend</a>
+      <a class="nav col-12 col-tab-v-06 col-tab-04 col-lap-03 col-desk-12" href="" target="_blank" id="contact">Contact Us</a>
+    </nav>
+
+    <img src="Image_2000x1000.webp" alt="Blood Donation Image" class="col-12 col-tab-v-12 col-tab-12 col-lap-12 col-desk-03"/>
+
+    <div class="col-12 col-tab-v-06 col-tab-06 col-lap-06 col-desk-06">
+      <h3>Find A Donor:</h3>
+      <form action="" id="find_donor">
+        <table>
+          <tr>
+            <td><label for="find_state">State:</label></td>
+            <td class="select">
+              <select name="find_state" required>
+                <option value="">List of States</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="find_dist">District:</label></td>
+            <td class="select">
+              <select name="find_dist">
+                <option value="">List of District</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="find_city">City:</label></td>
+            <td class="select">
+              <select name="find_city">
+                <option value="">List of Cities</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="find_group">Blood Group:</label></td>
+            <td class="select">
+              <select>
+                <option value="find_group">List of Blood Groups</option>
+              </select>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+    
+    <div id="HowToDonate" class="col-12 col-tab-v-06 col-tab-06 col-lap-06 col-desk-06">
+      <h3>Donation Process:</h3>
+       <p>
+         <ul>
+          <li>Your <b>Blood Group</b> will be tested</li>
+          <li>A needle is inserted into one of the left or right hand arteries</li>
+          <li>350 ml of blood is drawn within 3 to 5 minutes</li>
+          <li>A bandaid will be put on the hole and you will be ready to go home</li>
+         </ul>
+       </p>
+    </div>
+
+    <form action="" id="where" class="col-12 col-tab-v-12 col-tab-12 col-lap-12 col-desk-06">
+      <input type="text" placeholder="Where would you like to donate?" style="width:70%">
+      <span style="float: right;"><button type="submit">Search</button></span>
+    </form>
+
+    </body>
+</html>
+
+
+<!--
+  Worked on this project for:
+    120 min on 14-06-2022
+    060 min on 18-06-2022
+    060 min on 20-06-2022
+    100 min on 21-06-2022
+    040 min on 24-06-2022
+    040 min on 28-06-2022     //Did till here using 
+    120 min on 01-07-2022     //Used flexbox from here    //Done with flex layout for mobile and tab, lap and desk remaining
+    100 min on 03-07-2022     //Created a new file Flex-tab-v.css, and done with tab portrait and landscape orientations
+-->
